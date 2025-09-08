@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node",
+  "extends": "@tsconfig/node22",
+  "compilerOptions": {
+    "allowJs": true,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "incremental": true,
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "noErrorTruncation": true,
+    "outDir": "${configDir}/dist",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "tsBuildInfoFile": "${configDir}/dist/tsconfig.tsbuildinfo",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "rootDir": "api"
+  },
+  "include": ["api/**/*"]
+}
