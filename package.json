@@ -4,17 +4,4 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Owner/parallel-sdk.git"
-  },
-  "author": "Owner.com",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Owner/parallel-sdk/issues"
-  },
-  "homepage": "https://github.com/Owner/parallel-sdk#readme",
-  "description": ""
-}
+    "test": "echo \"Error: no test specified\" && exit 
